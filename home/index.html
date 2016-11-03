@@ -478,7 +478,7 @@ As well as this I have the ability to create responsive UI's and inccorperate va
 
     <!-- Contact Me
 	============================================= -->
-    <section id="contact">
+        <section id="contact">
         <div class="container">
             <h2>Contact me</h2>
          
@@ -486,17 +486,18 @@ As well as this I have the ability to create responsive UI's and inccorperate va
             <hr class="sep">
             <p>Get In Touch</p>
             <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay=".3s">
-                <form action="mailto:gwhelan1114@gmail.com" method="post" enctype="text/plain">
+               
+                <form action="mailer.php" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="Name" placeholder="Name">
+                        <input type="text" name="name" class="form-control" id="Name" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="Email" placeholder="Email">
+                        <input type="text" name="email" class="form-control" id="Email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                        <textarea class="form-control" name="body" rows="3" placeholder="Message" input type="text"></textarea>
                     </div>
-                    <a type="submit" value="Send"class="btn-block">Send</a>
+                    <input type="submit" value="click"class="btn-block">
                 </form>
             </div>
         </div>
