@@ -3,7 +3,7 @@ require 'C:/xampp/htdocs/demo/phpmailer/PHPMailerAutoload.php';
 require 'class.phpmaileroauthgoogle.php'; // path to the PHPMailer class
 require 'class.smtp.php';
 require 'class.phpmailer.php';
-require 'C:/xampp/htdocs/demo/phpmailer/contact-demo.html';
+require 'home/email/demo/phpmailer/index.html';
 ini_set('include_path', 'C:\xampp\php\PEAR');
 
 
